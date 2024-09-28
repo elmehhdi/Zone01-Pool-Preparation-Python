@@ -22,3 +22,15 @@ for i in range (65,91):
 print(alphabet)
 
 '''
+
+
+
+# autre solution kankhedmo b la fonction range() et ord()
+
+'''
+for c in range(ord('a'), ord('z'), 1):  # Step hna ndiro 1 bach netmechaw wa7ed b wa7ed
+    print(chr(c), end='')  
+
+print() 
+
+'''
